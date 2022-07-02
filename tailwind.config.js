@@ -5,7 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        textClr: "#121212",
+        socialClr: "#7f7d86",
+        homeLight: "#ff8f72",
+        homeDark: "#ff734f",
+        account: "#292736",
+        lightBg: "#f6f7f9",
       },
     },
   },
