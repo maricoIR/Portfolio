@@ -1,11 +1,12 @@
-import React from "react";
-import Landing from "./components/Landing/Landing";
+import LandingV2 from "./components/LandingV2/LandingV2";
+import Projects from "./components/Projects/Projects";
 import Services from "./components/Services/Services";
 
 const Home = () => {
   return (
     <>
-      <Landing />
+      <LandingV2 />
+      <Projects />
       <Services />
     </>
   );

@@ -39,8 +39,20 @@
 @font-face {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   src: url("./assets/fonts/montserrat/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  src: url("./assets/fonts/montserrat/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  src: url("./assets/fonts/montserrat/Montserrat-Black.ttf");
 }
 
 body {
