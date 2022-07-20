@@ -85,23 +85,10 @@ const Sidebar = () => {
             </span>
           </div>
           <div className="text-center w-full flex items-center gap-4 justify-center absolute bottom-8">
-            <a
-              href="https://www.facebook.com/nicesmilesstudio/"
-              target="_blank"
-            >
+            <a href="https://github.com/maricoIR/" target="_blank">
               <LogoGithub cssClasses="cursor-pointer" color={"#1f2937"} />
             </a>
-
-            <a
-              href="https://www.instagram.com/nicesmilesstoudio/"
-              target="_blank"
-            >
-              <LogoLinkedin color={"#1f2937"} cssClasses="cursor-pointer" />
-            </a>
-            <a
-              href="https://www.instagram.com/nicesmilesstoudio/"
-              target="_blank"
-            >
+            <a href="https://t.me/Matinkahrizy" target="_blank">
               <PaperPlaneOutline
                 color={"#1f2937"}
                 cssClasses="cursor-pointer"

@@ -26,19 +26,15 @@ export default function LandingV2() {
         </span>
       </div>
       <div className="absolute sm:left-14 left-8 bottom-7 flex items-center gap-5">
-        <LogoGithub
-          color={"#fff"}
-          width="23px"
-          height="23px"
-          cssClasses="cursor-pointer"
-        />
-        <LogoLinkedin
-          color={"#fff"}
-          width="23px"
-          height="23px"
-          cssClasses="cursor-pointer"
-        />
-        <a href="https://github.com/" target="_blank">
+        <a href="https://github.com/maricoIR/" target="_blank">
+          <LogoGithub
+            color={"#fff"}
+            width="23px"
+            height="23px"
+            cssClasses="cursor-pointer"
+          />
+        </a>
+        <a href="https://t.me/Matinkahrizy" target="_blank">
           <PaperPlaneOutline
             color={"#fff"}
             width="23px"
