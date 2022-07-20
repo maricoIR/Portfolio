@@ -1,7 +1,7 @@
 import React from "react";
 import bg from "../../../../assets/images/bg.jpg";
 import Navbar from "../../../../components/Navbar/Navbar";
-import { LogoGithub, LogoLinkedin, LogoWhatsapp } from "react-ionicons";
+import { LogoGithub, LogoLinkedin, PaperPlaneOutline } from "react-ionicons";
 
 export default function LandingV2() {
   return (
@@ -38,12 +38,14 @@ export default function LandingV2() {
           height="23px"
           cssClasses="cursor-pointer"
         />
-        <LogoWhatsapp
-          color={"#fff"}
-          width="23px"
-          height="23px"
-          cssClasses="cursor-pointer"
-        />
+        <a href="https://github.com/" target="_blank">
+          <PaperPlaneOutline
+            color={"#fff"}
+            width="23px"
+            height="23px"
+            cssClasses="cursor-pointer"
+          />
+        </a>
       </div>
     </div>
   );
