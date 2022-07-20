@@ -1,7 +1,7 @@
 const SingleProject = (props) => {
   return (
     <div
-      className="flex flex-col md:items-start items-center w-full gap-3 cursor-pointer"
+      className="flex flex-col md:items-start items-center md:w-auto w-full gap-3 cursor-pointer"
       onClick={() => {
         props.setModal(true);
         props.setModalBody([
