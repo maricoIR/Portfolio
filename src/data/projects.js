@@ -44,8 +44,8 @@ export const projects = [
     description:
       "This app is a Fullstack Todo App that I launched for myself as a practice for Next js . I used online MongoDB database and Node js Apis in Next js to make it work .",
     links: [
-      { type: "website", href: "https://www.app.rsoon.ir" },
-      { type: "github", href: "https://github.com/" },
+      { type: "website", href: "https://super-basbousa-7aef6b.netlify.app/" },
+      { type: "github", href: "https://github.com/maricoIR/Next-Todo" },
     ],
     technologies: [
       { title: "Next js", image: Nextjs },
@@ -60,8 +60,8 @@ export const projects = [
     description:
       "This app is a Quiz App that I launched for myself as a practice for Next js . I used a local Json Data file for questions and TailwindCss for styling .",
     links: [
-      { type: "website", href: "https://www.app.rsoon.ir" },
-      { type: "github", href: "https://github.com/" },
+      { type: "website", href: "https://quiz-app-flame-zeta.vercel.app/" },
+      { type: "github", href: "https://github.com/maricoIR/Quiz-App" },
     ],
     technologies: [
       { title: "Next js", image: Nextjs },
@@ -74,8 +74,14 @@ export const projects = [
     description:
       "This is an Admin Dashboard panel that I created for practicing React . I used TailwindCss , Mui and Syncfussion libraries for the design also implemented search and filter .",
     links: [
-      { type: "website", href: "https://www.app.rsoon.ir" },
-      { type: "github", href: "https://github.com/" },
+      {
+        type: "website",
+        href: "https://react-admin-dashboard-seven.vercel.app/",
+      },
+      {
+        type: "github",
+        href: "https://github.com/maricoIR/React-Admin-Dashboard",
+      },
     ],
     technologies: [
       { title: "React", image: ReactLogo },
