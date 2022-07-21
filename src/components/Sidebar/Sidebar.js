@@ -7,6 +7,7 @@ import {
   LogoLinkedin,
   LogoGithub,
 } from "react-ionicons";
+import resume from "../../assets/files/matinkahrizi.pdf";
 
 const Sidebar = () => {
   const {
@@ -79,9 +80,13 @@ const Sidebar = () => {
               </span>
             </a>
             <span className="w-full text-center hover:bg-gray-200 py-2 cursor-pointer">
-              <span className="text-center w-full hover:bg-NavterDarker transition-all text-[18px] font-medium cursor-pointer">
+              <a
+                href={resume}
+                className="text-center w-full hover:bg-NavterDarker transition-all text-[18px] font-medium cursor-pointer"
+                download
+              >
                 Resume File
-              </span>
+              </a>
             </span>
           </div>
           <div className="text-center w-full flex items-center gap-4 justify-center absolute bottom-8">
