@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import resume from "../../assets/files/matinkahrizi.pdf";
 
 const Navbar = () => {
   useEffect(() => {
@@ -26,7 +27,13 @@ const Navbar = () => {
         >
           Projects
         </a>
-        <li className="text-white cursor-pointer text-[15px]">Resume File</li>
+        <a
+          href={resume}
+          className="text-white cursor-pointer text-[15px]"
+          download
+        >
+          Resume File
+        </a>
       </ul>
     </div>
   );
