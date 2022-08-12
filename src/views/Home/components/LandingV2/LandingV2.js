@@ -26,7 +26,7 @@ export default function LandingV2() {
         </span>
       </div>
       <div className="absolute sm:left-14 left-8 bottom-7 flex items-center gap-5">
-        <a href="https://github.com/maricoIR/" target="_blank">
+        <a href="https://github.com/maricoIR/" target="_blank" rel="noreferrer">
           <LogoGithub
             color={"#fff"}
             width="23px"
@@ -34,7 +34,19 @@ export default function LandingV2() {
             cssClasses="cursor-pointer"
           />
         </a>
-        <a href="https://t.me/Matinkahrizy" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/matin-kahrizi-17344288"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <LogoLinkedin
+            color={"#fff"}
+            width="23px"
+            height="23px"
+            cssClasses="cursor-pointer"
+          />
+        </a>
+        <a href="https://t.me/Matinkahrizy" target="_blank" rel="noreferrer">
           <PaperPlaneOutline
             color={"#fff"}
             width="23px"

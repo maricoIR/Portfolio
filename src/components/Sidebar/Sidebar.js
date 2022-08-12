@@ -90,10 +90,25 @@ const Sidebar = () => {
             </span>
           </div>
           <div className="text-center w-full flex items-center gap-4 justify-center absolute bottom-8">
-            <a href="https://github.com/maricoIR/" target="_blank">
+            <a
+              href="https://github.com/maricoIR/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <LogoGithub cssClasses="cursor-pointer" color={"#1f2937"} />
             </a>
-            <a href="https://t.me/Matinkahrizy" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/matin-kahrizi-17344288"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LogoLinkedin cssClasses="cursor-pointer" color={"#1f2937"} />
+            </a>
+            <a
+              href="https://t.me/Matinkahrizy"
+              target="_blank"
+              rel="noreferrer"
+            >
               <PaperPlaneOutline
                 color={"#1f2937"}
                 cssClasses="cursor-pointer"
